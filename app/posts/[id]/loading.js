@@ -24,7 +24,7 @@ export default function Loading() {
 
         {/* Text with Dots Animation */}
         <h2 className="text-xl font-semibold text-neutral-100">
-          جاري التحميل<span className="opacity-100">{dots}</span>
+          loading<span className="opacity-100">{dots}</span>
           <span className="invisible">...</span> {/* للحفاظ على المساحة */}
         </h2>
 
@@ -41,7 +41,7 @@ export default function Loading() {
           100% { width: 100%; }
         }
         .animate-progress {
-          animation: progress 1.5s ease-in-out infinite;
+          animation: progress 1.5s  ease-in-out infinite;
         }
       `}</style>
     </div>
