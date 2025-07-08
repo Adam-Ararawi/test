@@ -11,7 +11,7 @@ export default async function PostPage(props) {
       {/* زر العودة المعدل */}
       <Link
         href="/posts"
-        className="fixed sm:absolute top-4 left-4 bg-neutral-800 hover:bg-neutral-700 text-white p-2 sm:px-4 sm:py-2 rounded-full sm:rounded-lg transition-all duration-200 flex items-center gap-1 z-10"
+        className="fixed sm:absolute bottom-4 left-4 bg-neutral-800 hover:bg-neutral-700 text-white p-2 sm:px-4 sm:py-2 rounded-full sm:rounded-lg transition-all duration-200 flex items-center gap-1 z-10"
       >
         <svg
           xmlns="http://www.w3.org/2000/svg"
